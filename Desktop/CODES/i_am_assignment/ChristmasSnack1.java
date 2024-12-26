@@ -30,7 +30,7 @@ public class ChristmasSnack1 {
 
         int boxesNeeded = numberOfPeople / slicesPerBoxChosen;
         if (numberOfPeople % slicesPerBoxChosen != 0) {
-            boxesNeeded++; // If there are leftover guests, we need one more box
+            boxesNeeded++; 
         }
 
 
