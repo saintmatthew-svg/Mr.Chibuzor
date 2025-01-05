@@ -1,0 +1,25 @@
+System.out.println("ENTER A NUMBER TO CHECK IF IT IS A PRIME NUMBER : ");
+	int primeNumber = entries.nextInt();
+	
+	boolean isPrime = true;
+	int counter =2;
+	if(primeNumber ==0 || primeNumber == 1){
+		System.out.println(primeNumber + " is not prime.");
+}
+	else{
+	
+	while( counter < primeNumber){
+		if(primeNumber % count ==0){
+	System.out.println(primeNumber + " is not prime.");
+		isPrime = false;
+	
+		break;
+}
+	  count++;
+}
+	if (isPrime){
+	System.out.println(primeNumber + " is prime.");
+	
+}
+
+}
